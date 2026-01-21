@@ -1,12 +1,21 @@
 function highlight() {
     //Write your code here
+	const boldwords = document.querySelectorAll("strong");
 
-
+	boldwords.forEach(word =>{
+		word.style.color = rgb(0, 128, 0);
+	});
 }
 
 
 function return_normal() {
     //Write your code here
+	const boldwords = document.getElementById("strong");
+
+	boldwords.forEach(word =>{
+		word.style.color = rgb(0, 0, 0);
+	});
+	
 
     
 }
