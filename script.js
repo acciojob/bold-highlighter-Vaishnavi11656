@@ -10,7 +10,7 @@ function highlight() {
 
 function return_normal() {
     //Write your code here
-	const boldwords = querySelectorAll("strong");
+	const boldwords = document.querySelectorAll("strong");
 
 	boldwords.forEach(word =>{
 		word.style.color = "rgb(0, 0, 0)";
